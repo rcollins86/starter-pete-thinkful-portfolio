@@ -18,7 +18,8 @@ h3 {
 
 /* Header */
 header {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 /* Containers */
@@ -26,6 +27,23 @@ div {
   background-color: #eae2b7;
   margin: auto;
   width: 600px;
+}
+
+#about section{
+  display: flex;
+}
+
+#about p {
+  text-align: left;
+}
+
+#portfolio div {
+  display: flex;
+  font-size: 14px;
+}
+
+#portfolio div section {
+  padding: 10px;
 }
 
 article {
@@ -42,6 +60,12 @@ p {
   line-height: 1.5;
 }
 
+/* Lists */
+
+ul {
+  text-align: left;
+}
+
 /* Links */
 a:link {
   color: #d62828;
@@ -53,6 +77,13 @@ a:hover {
 
 nav a {
   padding-left: 20px;
+}
+
+nav {
+  margin-top: 30px;
+  margin-left: 20px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 /* Images */
